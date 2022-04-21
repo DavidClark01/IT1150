@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo - Using Javascript</title>
+        <link rel="stylesheet" type="text/css" href="demo.css" />
+        <script src="demo.js" type="text/javascript"></script>
+        </head>
+    <body>
+        <div>
+            <h2> Welcome to this little demo page!!!</h2>
+            <button onclick="hello();">Click me</button>
+        </div>
+        <div> 
+            <h2>Let's try some math here...</h2>
+            <p>What is the sum of 3 and 5?</p>
+            <button>Show Answer</button>
+
+            <p>If you subtract 100 from 1000 what do you get?</p>
+            <button>Show Answer</button>
+            
+            <p>Click this button to add 10 to a number "100"</p>
+            <button>Show Answer</button>
+
+            <p>Charlie is 162cm tall and John is 135cm tall. Who is taller?</p>
+            <button>Show Answer</button>
+            
+            <p>Tell me if the given fruit is tropical</p>
+            <button>Show Answer</button>
+
+            <p>Say hello 5 times</p>
+            <button onclick="Repeat('hello');">Show answer</button>
+
+            <p>Find the multiples of 2, 3 and 5 between 1 and 100</p>
+            <p>Show the total count of multiples of 2, 3 and 5</p>
+            <button onclick="CountMultiples(2);CountMultiples(3);CountMultiples(5);">Show answer</button>
+
+            <p>Print a triangle made up of * as many rows as I say</p>
+            <button onclick="DisplayTriangle(10);">Display Triangle</button>            
+            <br/>
+            <button onclick="CountStarsInTriangle(10);">Count Stars</button>  
+
+            <h2>Homework - Switch and Loops</h2>
+
+            <p>Calculate the sum of 50 odd numbers between 5 and 150 (using "for" loop) </p>
+            <p>Use the % operator to decide if a number is odd or even. </p>
+            <p>(X % 2) gives the remainder when divided by 2. </p>
+            <button onclick="add();">Show answer</button>
+
+            <p>Using switch statement, assign a letter grade for a given score</p>
+            <p>(Below 70 is F; 70-79 is C; 80-89 is B and 90 and above is A)</p>
+            <button onclick="substract();">Show answer</button>
+
+            <p>Display the multiples of 13 between 1 and 200(use any loop)</p>
+            <p>Also display the total number of multiples of 13 also</p>
+            <button onclick="increment();">Show answer</button>
+
+            <p>Print a triangle made up of A and B as many rows as I say (pass the rows as a parameter to the function)</p>
+            <p>first row will be A; second row will be AB; third row will be ABA; fourth row will be ABAB..etc</p>            
+            <button onclick="compare();">Show answer</button>
+
+            <p>In the above triangle, count the number of As and number of Bs</p>            
+            <button onclick="IsTropical('mango');">Show answer</button>
+
+        </div>
+    </body>
+</html>
